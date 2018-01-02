@@ -52,7 +52,7 @@ setup(
         # 'Intended Audience :: Seismologists',
 
         # Pick your license as you wish (should match "license" above)
-        'License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)',
+        'License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)',
         'Natural Language :: English',
         'Operating System :: POSIX :: Linux',
 
@@ -79,7 +79,7 @@ setup(
     # your project is installed. For an analysis of "install_requires" vs pip's
     # requirements files see:
     # https://packaging.python.org/en/latest/requirements.html
-    install_requires=['dateutil'],
+    install_requires=['python-dateutil'],
 
     python_requires='>=2.7, <3',
     # List additional groups of dependencies here (e.g. development
